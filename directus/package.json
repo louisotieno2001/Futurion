@@ -1,0 +1,15 @@
+{
+  "name": "futurion",
+  "version": "1.0.0",
+  "description": "directus",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "phoenix",
+  "license": "ISC",
+  "dependencies": {
+    "pg": "^8.11.2",
+    "pg-promise": "^11.5.3"
+  }
+}

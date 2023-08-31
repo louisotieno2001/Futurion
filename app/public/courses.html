@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VCMHYS7QJ4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VCMHYS7QJ4');
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap"
+		rel="stylesheet">
+        <link rel="icon" href="./res/ic.png" type="image/x-icon">
+        <link rel="stylesheet" href="./css/styles.css">
+        <link rel="stylesheet" href="./css/dark-theme.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Courses</title>
+</head>
+
+<body>
+    <div class="wrapper">
+    <nav class="menu" role="navigation">
+        <h1 class="logo">
+            <span id="f">
+                <span class="letter">F</span>
+                <span class="letter">u</span>
+                <span class="letter">t</span>
+                <span class="letter">u</span>
+                <span class="letter">r</span>
+                <span class="letter">i</span>
+                <span class="letter">o</span>
+                <span class="letter">n</span>
+            </span>
+            Lab
+        </h1>
+        <img src="res/menu_icon.png" alt="menu_icon" class="menu_icon" id="menu_icon">
+        <ul class="menu-items">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="labs.html">Labs</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contacting.html">Contact Us</a></li>
+            <li><a href="join.html">Join Futurion</a></li>
+            <li><a href="donate.html">Donate</a></li>
+            <li><i class="fas fa-lightbulb" id="theme-toggler"></i></li>
+        </ul>
+    </nav>
+    <form action="" method="post" class="courses-form" id="form">
+        <label for="name">Name <br>
+            <input type="text" name="name" id="name" required placeholder="John Doe">
+        </label>
+
+        <label for="email">Email <br>
+            <input type="email" name="email" id="email" required placeholder="johndoe@gmail.com">
+        </label>
+
+        <label for="phone">Phone <br>
+            <input type="text" name="phone" id="phone" placeholder="0711223344">
+        </label>
+       
+        <label for="lesson">Lesson type <br>
+            <select name="lesson" id="lesson">
+                <option value="Online">Online</option>
+                <option value="Physical">Physical</option>
+            </select>
+        </label>
+        <label for="message">Courses <br>
+          <select name="course" id="course" required>
+            <option value="Web">Web development</option>
+            <option value="Android">Android development</option>
+            <option value="Frameworks">Frameworks</option>
+            <option value="CMS">Content management systems</option>
+            <option value="Web-design">Web UI/UX design</option>
+            <option value="Android-design">Android apps UI/UX design</option>
+          </select>
+        </label><br>
+        <label for="message">Message <br>
+            <textarea name="message" id="message" cols="30" rows="10" required
+                placeholder="Write your message here"></textarea>
+        </label>
+
+        <button class="submit" type="submit" id="submit">Send</button>
+
+    </form>
+</div>
+    <footer class="footer">
+        <center><p>Follow us on social media below</p></center>
+        <div class="socials">
+            <li class="socials_lin"><a href="https://www.linkedin.com/company/futurionlabs/?viewAsMember=true" target="_blank"><img src="res/linkedin.png" alt="LinkedIn"></a></li>
+            <li class="socials_fb"><a href="https://web.facebook.com/profile.php?id=100095350909516" target="_blank"><img src="res/Facebook.png" alt="Facebook"></a></li>
+            <li class="socials_ig"><a href="https://www.instagram.com/futurion_labs123/" target="_blank"><img src="res/Instagram.png" alt="Instagram"></a></li>
+            <li class="socials_wa"><a href="https://wa.me/254746852485" target="_blank"><img src="res/icon-whatsapp.png" alt="Whatsapp"></a></li>
+            <li class="socials_tw"><a href="https://twitter.com/louiso_chieng1" target="_blank"><img src="res/twitter.png" alt="twitter"></a></li>
+        </div>
+        <p>Copyright&copy;2023 Futurion Labs. All rights reserved</p>
+    </footer>
+    <script src="/javascript/colorChange.js"></script>
+    <script src="./javascript/menu.js"></script>
+    <script src="./javascript/courses.js"></script>
+    <script src="./javascript/theme.js"></script>
+</body>
+
+</html>
