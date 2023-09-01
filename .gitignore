@@ -3,3 +3,9 @@ node_modules/
 
 #Ignore temporary files
 *.tmp
+
+#Ignore .env
+.env
+
+#Ingore .cache
+.cache
