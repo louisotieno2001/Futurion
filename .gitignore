@@ -3,3 +3,6 @@ node_modules/
 
 #Ignore temporary files
 *.tmp
+
+#ignore dotenv files
+.env
