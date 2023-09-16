@@ -703,7 +703,8 @@ li a {
         margin-right: 10px;
         opacity: 1!important;
         margin-bottom: 25px;
-        font-size: medium;
+        font-size: larger;
+        font-weight: bolder;
     }
 
     .footer{
