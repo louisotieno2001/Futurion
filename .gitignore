@@ -6,3 +6,6 @@ node_modules/
 
 #ignore dotenv files
 .env
+
+#ignore .cache files
+.cache
