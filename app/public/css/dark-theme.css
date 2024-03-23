@@ -3,6 +3,10 @@ body.dark-theme {
     color: #ffffff;
 }
 
+body.dark-theme a{
+    color: #aaebaa;
+}
+
 body.dark-theme .mobile-cookie-banner{
   display: none;
 }
@@ -44,18 +48,18 @@ body.dark-theme .presentation {
     margin-bottom: 25px;
 }
 
-body.dark-theme .presentation:hover {
+/* body.dark-theme .presentation:hover {
   background-image: url(../res/pres.png);
   background-position: center;
   background-size: cover;
-    opacity: 1; /* Change this to 1 for fully opaque */
+    opacity: 1; 
     padding: 4em;
     font-size: larger;
     font-weight: bolder;
     transition: padding 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55),
         margin-left 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55),
         font-size 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55);
-}
+} */
 
 body.dark-theme .logo{
   font-size: 2em;
@@ -82,16 +86,16 @@ body.dark-theme .labs-banner{
   font-weight: bolder;
 }
 
-body.dark-theme .labs-banner:hover{
+/* body.dark-theme .labs-banner:hover{
   background: #2e2e30;
-  opacity: 1; /* Change this to 1 for fully opaque */
+  opacity: 1; 
   padding: 5.5em;
   font-size: larger;
   font-weight: bolder;
   transition: padding 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55),
       margin-left 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55),
       font-size 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55);
-}
+} */
 
 body.dark-theme .web{
   width: 50%;
@@ -103,16 +107,16 @@ body.dark-theme .web{
   margin-left: 30px;
 }
 
-body.dark-theme .web:hover{
+/* body.dark-theme .web:hover{
   background: #2e2e30;
-  opacity: 1; /* Change this to 1 for fully opaque */
+  opacity: 1; 
   padding: 1.5em;
   font-size: larger;
   font-weight: bolder;
   transition: padding 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55),
       margin-left 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55),
       font-size 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55);
-}
+} */
 
 body.dark-theme .frameworks{
   width: 50%;
@@ -124,16 +128,16 @@ body.dark-theme .frameworks{
   margin-right: 30px; 
 }
 
-body.dark-theme .frameworks:hover{
+/* body.dark-theme .frameworks:hover{
   background: #2e2e30;
-  opacity: 1; /* Change this to 1 for fully opaque */
+  opacity: 1; 
   padding: 1.5em;
   font-size: larger;
   font-weight: bolder;
   transition: padding 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55),
       margin-left 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55),
       font-size 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55);
-}
+} */
 
 body.dark-theme .web-design{
   width: 50%;
@@ -145,16 +149,16 @@ body.dark-theme .web-design{
   margin-left: 30px;
 }
 
-body.dark-theme .web-design:hover{
+/* body.dark-theme .web-design:hover{
   background: #2e2e30;
-  opacity: 1; /* Change this to 1 for fully opaque */
+  opacity: 1; 
   padding: 1.5em;
   font-size: larger;
   font-weight: bolder;
   transition: padding 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55),
       margin-left 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55),
       font-size 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55);
-}
+} */
 
 body.dark-theme .cms{
   width: 50%;
@@ -166,16 +170,16 @@ body.dark-theme .cms{
   margin-right: 30px; 
 }
 
-body.dark-theme .cms:hover{
+/* body.dark-theme .cms:hover{
   background: #2e2e30;
-  opacity: 1; /* Change this to 1 for fully opaque */
+  opacity: 1; 
   padding: 1.5em;
   font-size: larger;
   font-weight: bolder;
   transition: padding 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55),
       margin-left 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55),
       font-size 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55);
-}
+} */
 
 body.dark-theme .android{
   width: 50%;
@@ -187,16 +191,16 @@ body.dark-theme .android{
   margin-left: 30px;
 }
 
-body.dark-theme .android:hover{
+/* body.dark-theme .android:hover{
   background: #2e2e30;
-  opacity: 1; /* Change this to 1 for fully opaque */
+  opacity: 1; 
   padding: 1.5em;
   font-size: larger;
   font-weight: bolder;
   transition: padding 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55),
       margin-left 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55),
       font-size 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55);
-}
+} */
 
 body.dark-theme .android-ui{
   width: 50%;
@@ -208,16 +212,16 @@ body.dark-theme .android-ui{
   margin-right: 30px; 
 }
 
-body.dark-theme .android-ui:hover{
+/* body.dark-theme .android-ui:hover{
   background: #2e2e30;
-  opacity: 1; /* Change this to 1 for fully opaque */
+  opacity: 1; 
   padding: 1.5em;
   font-size: larger;
   font-weight: bolder;
   transition: padding 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55),
       margin-left 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55),
       font-size 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55);
-}
+} */
 
 body.dark-theme .contacting-banner{
   padding: 2em;
@@ -265,16 +269,16 @@ body.dark-theme .about-p{
   font-size: larger;
 }
 
-body.dark-theme .about-p:hover{
+/* body.dark-theme .about-p:hover{
   background: #2e2e30;
-  opacity: 1; /* Change this to 1 for fully opaque */
+  opacity: 1; 
   padding: 3em;
   font-size: larger;
   font-weight: bolder;
   transition: padding 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55),
       margin-left 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55),
       font-size 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55);
-}
+} */
 
 body.dark-theme .join-p{
   background-color: #2e2e30;
@@ -287,16 +291,16 @@ body.dark-theme .join-p{
   font-size: larger;
 }
 
-body.dark-theme .join-p:hover{
+/* body.dark-theme .join-p:hover{
   background: #2e2e30;
-  opacity: 1; /* Change this to 1 for fully opaque */
+  opacity: 1; 
   padding: 3em;
   font-size: larger;
   font-weight: bolder;
   transition: padding 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55),
       margin-left 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55),
       font-size 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55);
-}
+} */
 
 body.dark-theme .donor-p{
   background-color: #2e2e30;
@@ -308,16 +312,16 @@ body.dark-theme .donor-p{
   font-size: larger;
 }
 
-body.dark-theme .donor-p:hover{
+/* body.dark-theme .donor-p:hover{
   background:  #2e2e30;
-  opacity: 1; /* Change this to 1 for fully opaque */
+  opacity: 1; 
   padding: 3em;
   font-size: larger;
   font-weight: bolder;
   transition: padding 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55),
       margin-left 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55),
       font-size 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55);
-}
+} */
 
 body.dark-theme .cookie{
   margin-top: 10px;

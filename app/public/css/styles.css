@@ -229,16 +229,16 @@ li a {
     font-weight: bolder;
 }
 
-.labs-banner:hover{
+/* .labs-banner:hover{
     background: #fafafa;
-    opacity: 1; /* Change this to 1 for fully opaque */
+    opacity: 1; 
     padding: 5.5em;
     font-size: larger;
     font-weight: bolder;
     transition: padding 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55),
         margin-left 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55),
         font-size 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55);
-}
+} */
 
 .section-one{
     display: flex;
@@ -255,16 +255,16 @@ li a {
     margin-left: 30px;
 }
 
-.web:hover{
+/* .web:hover{
     background: #fafafa;
-    opacity: 1; /* Change this to 1 for fully opaque */
+    opacity: 1; 
     padding: 1.5em;
     font-size: larger;
     font-weight: bolder;
     transition: padding 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55),
         margin-left 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55),
         font-size 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55);
-}
+} */
 
 .frameworks{
     width: 50%;
@@ -276,16 +276,16 @@ li a {
     margin-right: 30px; 
 }
 
-.frameworks:hover{
+/* .frameworks:hover{
     background: #fafafa;
-    opacity: 1; /* Change this to 1 for fully opaque */
+    opacity: 1; 
     padding: 1.5em;
     font-size: larger;
     font-weight: bolder;
     transition: padding 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55),
         margin-left 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55),
         font-size 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55);
-}
+} */
 
 
 .section-two{
@@ -303,16 +303,16 @@ li a {
     margin-left: 30px;
 }
 
-.web-design:hover{
+/* .web-design:hover{
     background: #fafafa;
-    opacity: 1; /* Change this to 1 for fully opaque */
+    opacity: 1; 
     padding: 1.5em;
     font-size: larger;
     font-weight: bolder;
     transition: padding 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55),
         margin-left 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55),
         font-size 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55);
-}
+} */
 
 .cms{
     width: 50%;
@@ -324,16 +324,16 @@ li a {
     margin-right: 30px; 
 }
 
-.cms:hover{
+/* .cms:hover{
     background: #fafafa;
-    opacity: 1; /* Change this to 1 for fully opaque */
+    opacity: 1; 
     padding: 1.5em;
     font-size: larger;
     font-weight: bolder;
     transition: padding 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55),
         margin-left 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55),
         font-size 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55);
-}
+} */
 
 
 .section-three{
@@ -351,16 +351,16 @@ li a {
     margin-left: 30px;
 }
 
-.android:hover{
+/* .android:hover{
     background: #fafafa;
-    opacity: 1; /* Change this to 1 for fully opaque */
+    opacity: 1; 
     padding: 1.5em;
     font-size: larger;
     font-weight: bolder;
     transition: padding 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55),
         margin-left 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55),
         font-size 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55);
-}
+} */
 
 .android-ui{
     width: 50%;
@@ -372,16 +372,16 @@ li a {
     margin-right: 30px; 
 }
 
-.android-ui:hover{
+/* .android-ui:hover{
     background: #fafafa;
-    opacity: 1; /* Change this to 1 for fully opaque */
+    opacity: 1; 
     padding: 1.5em;
     font-size: larger;
     font-weight: bolder;
     transition: padding 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55),
         margin-left 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55),
         font-size 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55);
-}
+} */
 
 .contacting-banner{
     padding: 2em;
@@ -518,16 +518,16 @@ li a {
     font-size: larger;
 }
 
-.about-p:hover{
+/* .about-p:hover{
     background: #fafafa;
-    opacity: 1; /* Change this to 1 for fully opaque */
+    opacity: 1; 
     padding: 2em;
     font-size: larger;
     font-weight: bolder;
     transition: padding 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55),
         margin-left 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55),
         font-size 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55);
-}
+} */
 
 .join-p{
     background-color: #e3e3f0;
@@ -544,27 +544,27 @@ li a {
     color: #fff;
 }
 
-.join-p:hover{
+/* .join-p:hover{
     background: #fafafa;
-    opacity: 1; /* Change this to 1 for fully opaque */
+    opacity: 1; 
     padding: 3em;
     font-size: larger;
     font-weight: bolder;
     transition: padding 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55),
         margin-left 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55),
         font-size 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55);
-}
+} */
 
-.donor-p:hover{
+/* .donor-p:hover{
     background: #fafafa;
-    opacity: 1; /* Change this to 1 for fully opaque */
+    opacity: 1; 
     padding: 3em;
     font-size: larger;
     font-weight: bolder;
     transition: padding 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55),
         margin-left 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55),
         font-size 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55);
-}
+} */
 
 /* Mobile design */
 @media (max-width: 1068px) {
@@ -739,14 +739,14 @@ li a {
         font-family: 'Barlow', sans-serif;
     }
 
-    .labs-banner:hover{
+    /* .labs-banner:hover{
         padding: 1.5em;
         margin-top: 80px;
         margin-left: 30px;
         margin-right: 30px;
         font-weight: lighter;
         font-family: 'Barlow', sans-serif;
-    }
+    } */
 
     .web{
         width: 78%;
@@ -833,16 +833,16 @@ li a {
         font-size: large;
     }
 
-    .about-p:hover{
+    /* .about-p:hover{
         background: #fafafa;
-        opacity: 1; /* Change this to 1 for fully opaque */
+        opacity: 1; 
         padding: 1em;
         font-size: medium;
         font-weight: bold;
         transition: padding 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55),
             margin-left 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55),
             font-size 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55);
-    }
+    } */
 
     .join-p{
         padding: .8em;
@@ -860,16 +860,16 @@ li a {
         font-size: larger;
     }
 
-    .donor-p:hover{
+    /* .donor-p:hover{
         background: #e3e3f0;
-        opacity: 1; /* Change this to 1 for fully opaque */
+        opacity: 1; 
         padding: 3em;
         font-size: medium;
         font-weight: light;
         transition: padding 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55),
             margin-left 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55),
             font-size 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55);
-    }
+    } */
 
     .donor-banner{
         margin-top: 20px;
@@ -880,7 +880,7 @@ li a {
     }
 
     .presentation:hover{
-        opacity: 1; /* Change this to 1 for fully opaque */
+        opacity: 1; 
         padding: .5em;
         background-image: url(../res/pres.png);
         background-position: center;
@@ -891,16 +891,16 @@ li a {
             font-size 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55);
     }
 
-    .join-p:hover{
+    /* .join-p:hover{
         background: #fafafa;
-        opacity: 1; /* Change this to 1 for fully opaque */
+        opacity: 1; 
         padding: 1.5em;
         font-size: larger;
         font-weight: bolder;
         transition: padding 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55),
             margin-left 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55),
             font-size 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55);
-      }
+      } */
 
 
 }
