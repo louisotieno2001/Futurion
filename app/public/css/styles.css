@@ -29,7 +29,134 @@ body{
 
 .free-curri{
     border-radius: 10px;
-    background: #e3e3f0;
+    background: #e3e3f0;.sidebar {
+        height: 100vh;
+        width: 80px;
+        background-color: #212121;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+    }
+
+    .sidebar a {
+        text-decoration: none;
+        color: #333;
+        font-size: 14px;
+        margin: 10px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: aliceblue;
+        margin-top: 50px;
+    }
+
+    .tabs-content {
+        display: flex;
+        flex-grow: 1;
+        background-color: #424242;
+    }
+
+    .tab-content {
+        display: none;
+        flex-grow: 1;
+        text-align: center;
+    }
+
+    .tab-content.active {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .response-area {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        margin-right: 100px;
+    }
+
+    .result-area {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        margin-left: 300px;
+    }
+
+    .logo {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-image: url(../res/logo.jpeg);
+        background-position: center;
+        background-size: cover;
+        margin-bottom: 10px;
+    }
+
+    .prompt-area {
+        display: flex;
+        align-items: center;
+        margin-top: 140px;
+        margin-left: 120px;
+        margin-right: 180px;
+    }
+
+    .material-icons {
+        font-size: 24px;
+        color: aliceblue;
+    }
+
+    #mic {
+        background-color: #616161;
+        padding: 10px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    #arrow {
+        background-color: #616161;
+        padding: 10px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    #prompt-input {
+        margin: 0 10px;
+        border: 1px solid #757575;
+        border-radius: 8px;
+        flex-grow: 1;
+        background-color: #424242;
+        padding: 1em;
+        width: 440px;
+        color: aliceblue;
+        font-size: larger;
+    }
+
+    #prompt-input:focus {
+        outline: none;
+        border: 1px solid #757575;
+    }
+
+    .sample-questions {
+        display: flex;
+        flex-direction: row;
+        margin-left: 350px;
+    }
+
+    .sample-questions p {
+        padding: 1em;
+        margin: 2px;
+        border-radius: 8px;
+        border: 1px solid #757575;
+        width: 200px;
+        cursor: pointer;
+        color: aliceblue;
+    }
+
+    .mic-gif {
+        display: none;
+    }
     padding: 2em;
     margin: 5px;
     font-size: larger;
@@ -215,7 +342,261 @@ li a {
 
 .socials img{
     height: 25px;
-    height: 25px;
+    height: 25px;.sidebar {
+        height: 100vh;
+        width: 80px;
+        background-color: #212121;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+    }
+
+    .sidebar a {
+        text-decoration: none;
+        color: #333;
+        font-size: 14px;
+        margin: 10px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: aliceblue;
+        margin-top: 50px;
+    }
+
+    .tabs-content {
+        display: flex;
+        flex-grow: 1;
+        background-color: #424242;
+    }
+
+    .tab-content {
+        display: none;
+        flex-grow: 1;
+        text-align: center;
+    }
+
+    .tab-content.active {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .response-area {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        margin-right: 100px;
+    }
+
+    .result-area {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        margin-left: 300px;
+    }
+
+    .logo {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-image: url(../res/logo.jpeg);
+        background-position: center;
+        background-size: cover;
+        margin-bottom: 10px;
+    }
+
+    .prompt-area {
+        display: flex;
+        align-items: center;
+        margin-top: 140px;
+        margin-left: 120px;
+        margin-right: 180px;
+    }
+
+    .material-icons {
+        font-size: 24px;
+        color: aliceblue;
+    }
+
+    #mic {
+        background-color: #616161;
+        padding: 10px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    #arrow {
+        background-color: #616161;
+        padding: 10px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    #prompt-input {
+        margin: 0 10px;
+        border: 1px solid #757575;
+        border-radius: 8px;
+        flex-grow: 1;
+        background-color: #424242;
+        padding: 1em;
+        width: 440px;
+        color: aliceblue;
+        font-size: larger;
+    }
+
+    #prompt-input:focus {
+        outline: none;
+        border: 1px solid #757575;
+    }
+
+    .sample-questions {
+        display: flex;
+        flex-direction: row;
+        margin-left: 350px;
+    }
+
+    .sample-questions p {
+        padding: 1em;
+        margin: 2px;
+        border-radius: 8px;
+        border: 1px solid #757575;
+        width: 200px;
+        cursor: pointer;
+        color: aliceblue;
+    }.sidebar {
+        height: 100vh;
+        width: 80px;
+        background-color: #212121;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+    }
+
+    .sidebar a {
+        text-decoration: none;
+        color: #333;
+        font-size: 14px;
+        margin: 10px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: aliceblue;
+        margin-top: 50px;
+    }
+
+    .tabs-content {
+        display: flex;
+        flex-grow: 1;
+        background-color: #424242;
+    }
+
+    .tab-content {
+        display: none;
+        flex-grow: 1;
+        text-align: center;
+    }
+
+    .tab-content.active {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .response-area {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        margin-right: 100px;
+    }
+
+    .result-area {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        margin-left: 300px;
+    }
+
+    .logo {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-image: url(../res/logo.jpeg);
+        background-position: center;
+        background-size: cover;
+        margin-bottom: 10px;
+    }
+
+    .prompt-area {
+        display: flex;
+        align-items: center;
+        margin-top: 140px;
+        margin-left: 120px;
+        margin-right: 180px;
+    }
+
+    .material-icons {
+        font-size: 24px;
+        color: aliceblue;
+    }
+
+    #mic {
+        background-color: #616161;
+        padding: 10px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    #arrow {
+        background-color: #616161;
+        padding: 10px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    #prompt-input {
+        margin: 0 10px;
+        border: 1px solid #757575;
+        border-radius: 8px;
+        flex-grow: 1;
+        background-color: #424242;
+        padding: 1em;
+        width: 440px;
+        color: aliceblue;
+        font-size: larger;
+    }
+
+    #prompt-input:focus {
+        outline: none;
+        border: 1px solid #757575;
+    }
+
+    .sample-questions {
+        display: flex;
+        flex-direction: row;
+        margin-left: 350px;
+    }
+
+    .sample-questions p {
+        padding: 1em;
+        margin: 2px;
+        border-radius: 8px;
+        border: 1px solid #757575;
+        width: 200px;
+        cursor: pointer;
+        color: aliceblue;
+    }
+
+    .mic-gif {
+        display: none;
+    }
+
+    .mic-gif {
+        display: none;
+    }
 }
 
 .labs-banner{
